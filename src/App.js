@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <h4>学生一覧: [Huyen, Hoa, Hung, Long]</h4>
-      <h4>追加する名前を入力してください。</h4>
+      <h4>削除する名前を入力してください。</h4>
       <input onChange={handleChange} value={newname}></input>
       <br/>
       <button  onClick={() => handleDeletename(newname)} style={{marginLeft: 120, marginTop: 20}}>確定</button>
